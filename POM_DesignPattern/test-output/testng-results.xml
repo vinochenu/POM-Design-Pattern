@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="218984" started-at="2019-06-18T15:44:30Z" finished-at="2019-06-18T15:48:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="218984" started-at="2019-06-18T15:44:30Z" finished-at="2019-06-18T15:48:09Z">
+      <class name="pageLogin_Normal.LoginPage_PageFatory_Testcase">
+        <test-method status="PASS" signature="driverDetails()[pri:0, instance:pageLogin_Normal.LoginPage_PageFatory_Testcase@35fb3008]" name="driverDetails" is-config="true" duration-ms="9308" started-at="2019-06-18T21:14:30Z" finished-at="2019-06-18T21:14:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverDetails -->
+        <test-method status="FAIL" signature="loginPageFactory(java.lang.String, java.lang.String)[pri:0, instance:pageLogin_Normal.LoginPage_PageFatory_Testcase@35fb3008]" name="loginPageFactory" duration-ms="2234" started-at="2019-06-18T21:14:40Z" data-provider="testdata" finished-at="2019-06-18T21:14:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageLogin_Normal.LoginPage_PageFatory_Testcase.loginPageFactory(LoginPage_PageFatory_Testcase.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageFactory -->
+        <test-method status="PASS" signature="broserclose()[pri:0, instance:pageLogin_Normal.LoginPage_PageFatory_Testcase@35fb3008]" name="broserclose" is-config="true" duration-ms="506" started-at="2019-06-18T21:14:42Z" finished-at="2019-06-18T21:14:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broserclose -->
+        <test-method status="PASS" signature="driverDetails()[pri:0, instance:pageLogin_Normal.LoginPage_PageFatory_Testcase@35fb3008]" name="driverDetails" is-config="true" duration-ms="9402" started-at="2019-06-18T21:14:43Z" finished-at="2019-06-18T21:14:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverDetails -->
+        <test-method status="FAIL" signature="loginPageFactory(java.lang.String, java.lang.String)[pri:0, instance:pageLogin_Normal.LoginPage_PageFatory_Testcase@35fb3008]" name="loginPageFactory" duration-ms="2124" started-at="2019-06-18T21:14:52Z" data-provider="testdata" finished-at="2019-06-18T21:14:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageLogin_Normal.LoginPage_PageFatory_Testcase.loginPageFactory(LoginPage_PageFatory_Testcase.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageFactory -->
+        <test-method status="PASS" signature="broserclose()[pri:0, instance:pageLogin_Normal.LoginPage_PageFatory_Testcase@35fb3008]" name="broserclose" is-config="true" duration-ms="788" started-at="2019-06-18T21:14:54Z" finished-at="2019-06-18T21:14:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broserclose -->
+        <test-method status="PASS" signature="driverDetails()[pri:0, instance:pageLogin_Normal.LoginPage_PageFatory_Testcase@35fb3008]" name="driverDetails" is-config="true" duration-ms="9872" started-at="2019-06-18T21:14:55Z" finished-at="2019-06-18T21:15:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverDetails -->
+        <test-method status="PASS" signature="loginPageFactory(java.lang.String, java.lang.String)[pri:0, instance:pageLogin_Normal.LoginPage_PageFatory_Testcase@35fb3008]" name="loginPageFactory" duration-ms="172341" started-at="2019-06-18T21:15:05Z" data-provider="testdata" finished-at="2019-06-18T21:17:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vinoalphaq@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Puspam@3118]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageFactory -->
+        <test-method status="PASS" signature="broserclose()[pri:0, instance:pageLogin_Normal.LoginPage_PageFatory_Testcase@35fb3008]" name="broserclose" is-config="true" duration-ms="528" started-at="2019-06-18T21:17:57Z" finished-at="2019-06-18T21:17:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broserclose -->
+        <test-method status="PASS" signature="driverDetails()[pri:0, instance:pageLogin_Normal.LoginPage_PageFatory_Testcase@35fb3008]" name="driverDetails" is-config="true" duration-ms="8507" started-at="2019-06-18T21:17:58Z" finished-at="2019-06-18T21:18:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverDetails -->
+        <test-method status="FAIL" signature="loginPageFactory(java.lang.String, java.lang.String)[pri:0, instance:pageLogin_Normal.LoginPage_PageFatory_Testcase@35fb3008]" name="loginPageFactory" duration-ms="2208" started-at="2019-06-18T21:18:06Z" data-provider="testdata" finished-at="2019-06-18T21:18:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin3]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at pageLogin_Normal.LoginPage_PageFatory_Testcase.loginPageFactory(LoginPage_PageFatory_Testcase.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageFactory -->
+        <test-method status="PASS" signature="broserclose()[pri:0, instance:pageLogin_Normal.LoginPage_PageFatory_Testcase@35fb3008]" name="broserclose" is-config="true" duration-ms="331" started-at="2019-06-18T21:18:08Z" finished-at="2019-06-18T21:18:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- broserclose -->
+      </class> <!-- pageLogin_Normal.LoginPage_PageFatory_Testcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
